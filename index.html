@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gift of stars</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style-main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/baguetteBox.min.css">
+	<script src="js/particles.min.js"></script>
+	<link rel="stylesheet" href="css/adaptive-main.css">
+</head>
+<body>
+<div id="particles-js" ></div>
+<div class="off-on-animation">
+	<span>откл/вкл анимацию звезд<br>(влияет на производительность)</span>
+	<svg viewBox="0 0 24.303 24.303" style='transform: scale(1); transform-origin: 0 0'>
+		<g>
+			<path d="M10.269,11.298V1.883C10.269,0.844,11.113,0,12.152,0s1.883,0.844,1.883,1.883v9.415
+			c0,1.039-0.844,1.883-1.883,1.883S10.269,12.337,10.269,11.298z M19.616,2.761c-0.61-0.483-1.5-0.377-1.983,0.234
+			c-0.483,0.612-0.378,1.5,0.234,1.984c2.24,1.767,3.524,4.413,3.524,7.261c0,5.094-4.145,9.239-9.238,9.239
+			c-5.094,0-9.239-4.145-9.239-9.239c0-2.847,1.283-5.492,3.521-7.258c0.612-0.483,0.717-1.371,0.234-1.984
+			c-0.483-0.612-1.37-0.716-1.984-0.234C1.764,5.069,0.089,8.523,0.089,12.24c0,6.652,5.412,12.063,12.063,12.063
+			s12.063-5.412,12.063-12.063C24.215,8.521,22.538,5.067,19.616,2.761z"/>
+		</g>
+	</svg>
+</div>
+
+	<header>
+		<nav>
+<svg id='logo' width='120' height='110'>
+						<g class='logo-circle'>
+							<circle cx='5' cy='70' r='3'/>
+							<circle cx='55' cy='90' r='3'/>
+							<circle cx='75' cy='82' r='3'/>
+							<circle cx='95' cy='98' r='3'/>
+							<circle cx='110' cy='65' r='3'/>
+							<circle cx='15' cy='90' r='1.5'/>
+							<circle cx='48' cy='93' r='1.5'/>
+							<circle cx='77' cy='87' r='1.5'/>
+							<circle cx='87' cy='95' r='1.5'/>
+							<circle cx='98' cy='75' r='1.5'/>
+							<circle cx='84' cy='105' r='1.5'/>
+						</g>
+			<path id='logo-line' d='M5 70 55 90 75 82 95 98 110 65' stroke='#fff' fill="none" stroke-width='2'/>
+			<text x='2' y='45' class='logo-style'>Gift</text>
+			<text x='47' y='31' class='logo-style'>of</text>
+			<text x='64' y='45' class='logo-style'>Stars</text>
+		</svg>
+			<ul class="main-nav">
+				<li><a href="editor.html">Создать карту</a></li>
+				<li><a href="#">Как это работает</a></li>
+				<li><a href="#">Отзывы</a></li>
+			</ul>
+		</nav>
+		<div class="wrapper">
+			<section class="banner"> 
+				<h1>Звездная карта самых счастливых моментов вашей жизни</h1>
+				<p class="p-banner">Создайте красиво оформленную звездную карту, которая показывает уникальное расположение звезд в выбранном Вами месте и времени.</p>
+				<div class="banner-btn btn-from-left" >Создать сейчас</div>
+				<div class="to-bottom" id="to-bottom"></div>
+			</section>
+		</div>
+	</header>
+	<main>
+		<section class="about" id="about-block">
+			<div class="curtains-top"></div>
+			<div class="wrapper">
+				<img src="images/about_image.jpg" alt="star sky">
+				<div class="about_desc">
+					<p>День рождения, помолвка, свадьба, когда вы впервые встретились или тот момент, когда вы поняли, что ваш мир изменился...</p>
+					<p>Звезды никогда не выглядят одинаково дважды.</p>	
+					<p>Подарите эти звезды, чтобы всегда помнить тот особенный момент.</p>
+					<button onclick='location.href = "editor.html"' class="about-btn">Выбрать дизайн</button>
+				</div>
+			</div>
+			<div class="curtains-bottom"></div>
+		</section>
+		<div class="wrapper">
+			<section class="our-advantage">
+				<h2>Мы предлагаем</h2>
+				<div class="advantage-elems">
+								
+					<div class="advantage-elem waiter-advant">
+					<div class="wrapper-convert">
+					  <div class="mail">
+					    <div class="cover"></div>
+					    <img src="images/waiter.svg" alt="waiter" class="letter">
+					  </div>
+					</div>
+						<p class="text-advant">Возможность здесь и сейчас создать и скачать свою звёздную карту<br>Не нужно ждать, пока ее отрисуют, пустят в печать и отправят ее Вам</p>
+					</div>				
+					<div class="advantage-elem formats-advant">
+						<svg  width='105px' height='60px'>
+							<g class='a0'>
+								<rect x='0' y='0' width='45' height='60' stroke='#000' fill='#fff'/>
+								<text x='11' y='36' style='font-size: 18px'>A0</text>
+							</g>
+							<g class='a2'>
+								<rect x='50' y='20' width='30' height='40' stroke='#000' fill='#fff'/>
+								<text x='56' y='46' style='font-size: 14px'>A2</text>
+							</g>
+							<g class='a5'>
+								<rect x='85' y='45' width='105' height='15' stroke='#000' fill='#fff'/>
+								<text x='88.5' y='56' style='font-size: 10px'>A5</text>
+							</g>						
+						</svg>
+						<p class="text-advant">Множество выбора формата печати</p>
+					</div>
+					<div class="advantage-elem advnat-quality">
+						<svg width='80px' height='50px'>
+							<rect x='0' y='0' width='80' height='50' stroke='none' fill='none'/>
+							<text x='10' y='32' style='font-size: 18px; fill: #fff;'>300 dpi</text>
+						</svg>
+						<p class="text-advant">Высокое разрешение</p>
+					</div>
+					<div class="advantage-elem accuracy-advant">
+						<svg width='80' height='80'>
+							<g>
+								<circle cx='40' cy='40' r='40' fill='#fff'/>
+								<circle cx='40' cy='40' r='35' fill='#000'/>
+								<circle cx='40' cy='40' r='30' fill='#fff'/>
+								<circle cx='40' cy='40' r='25' fill='#000'/>
+								<circle cx='40' cy='40' r='20' fill='#fff'/>
+								<circle cx='40' cy='40' r='15' fill='#000'/>
+								<circle cx='40' cy='40' r='10' fill='#fff'/>
+								<circle  class='goal-center' cx='40' cy='40' r='5' fill='#000'/>
+							</g>
+						</svg>
+						<p class="text-advant">100% точность расположения звезд</p>
+					</div>
+				</div>
+			</section>
+		</div>
+			<section class="how-it-work">
+				<div class="wrapper">
+					<h2>Как это работает?</h2>
+					<ul>
+						<li>Перейдите в раздел редактора</li>
+						<li class="li-circle circle-1">
+							<div class="arrow"></div>
+						</li>
+						<li>Выберите место и дату события</li>
+						<li class="li-circle circle-2">
+							<div class="arrow"></div>
+						</li>
+						<li>Напишите текст-послание и подберите понравившейся дизайн</li>
+						<li class="li-circle circle-3">
+							<div class="arrow"></div>
+						</li>
+						<li>Выберите предпочтительный формат печати и нажмите "Далее". Подкотовка файла может заять некоторое время</li>
+						<li class="li-circle circle-4">
+							<div class="arrow"></div>
+						</li>
+						<li>Произведите оплату. После оплаты автоматически начнется скачивание </li>
+						<li class="center-to-editor"><button onclick='location.href = "editor.html"' class="spin circle">Опробовать</button></li>
+					</ul>
+				</div>
+			</section>
+			<section class="gallery-block">
+				<div class="wrapper">
+					<div class="gallery">
+						<a href="images/img1.jpg"><img src="images/img1-min.jpg" alt="img1"></a>
+						<a href="images/img2.png"><img src="images/img2-min.png" alt="img2"></a>
+						<a href="images/img3.jpg"><img src="images/img3-min.jpg" alt="img3"></a>
+						<a href="images/img4.jpg"><img src="images/img4-min.jpg" alt="img4"></a>
+						<a href="images/img5.jpg"><img src="images/img5-min.jpg" alt="img5"></a>
+						<a href="images/img6.jpg"><img src="images/img6-min.jpg" alt="img6"></a>
+						<a href="images/img7.jpg"><img src="images/img7-min.jpg" alt="img7"></a>
+						<a href="images/img8.jpg"><img src="images/img8-min.jpg" alt="img8"></a>
+						<a class="last-image" href="images/img9.jpg" style="display: none;"><img src="images/img9-min.jpg" alt="img9"></a>
+					</div>
+				</div>
+			</section>
+	</main>
+	<footer>
+		<div class="wrapper">
+			
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/baguetteBox.min.js"></script>
+	<script type="text/javascript" src="js/jquery-min.js"></script>
+	<script type="text/javascript" src="js/main-index.js"></script>
+</body>
+</html>

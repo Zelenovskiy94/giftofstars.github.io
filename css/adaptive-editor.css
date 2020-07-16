@@ -1,0 +1,56 @@
+
+@media screen and (max-width: 900px) {
+		.output-image {
+			transform: scale(0.8);
+		}
+}
+
+@media screen and (max-width: 875px) {
+		.wrapper-image {
+			order: 1;
+			height: 240px;
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+		.output-image {
+			transform: scale(0.3);
+		}
+		.settings {
+			order: 2;
+		}
+		.wrapper-editor {
+			display: flex;
+			flex-direction: column;
+			position: relative;
+		}
+}
+
+@media screen and (max-width: 480px) {
+	.output-image {
+		transform-origin: left;
+		left: 50%;
+		margin-left: -72px;
+		position: absolute;
+	}
+
+	#grid-picker {
+	left: 90px;
+	}
+
+	#eq-picker {
+		left: 105px;
+	}
+}
+@media screen and (max-width: 385px) {
+		.date-block {
+			justify-content: space-around;
+		}
+		#year {
+			max-width: 125px;
+		}
+
+		.colorpicker {
+			left: 0 !important;
+		}
+}

@@ -1,0 +1,153 @@
+@media screen and (max-width: 1070px) {
+	.gallery {
+		max-width: 788px;
+	}
+	.gallery a:last-child {
+		display: inline-block !important;
+	}
+	.gallery a:nth-child(4n) {
+	margin-right: 15px;
+	}
+	.gallery a:nth-child(3n) {
+	margin-right: 0;
+	}
+	.how-it-work ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.how-it-work ul li:not(:last-child) {
+		position: static;
+	}
+
+	.how-it-work ul .li-circle {
+		transform: rotate(0deg) !important;
+	}
+	.how-it-work {
+		padding-bottom: 70px;
+	}
+
+	.center-to-editor {
+		position: relative !important;
+		left: 0;
+		top: 0;
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	header nav {
+		padding: 10px 5px;
+	}
+	nav .main-nav {
+		width: 500px;
+	}
+
+	.about .wrapper {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.about .about_desc {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.curtains-top {
+		left: -34%;
+		top: -760px;
+	}
+	.curtains-bottom {
+		width: 2000px;
+		left: -40%;
+		top: 556px;
+	}
+
+}
+@media screen and (max-width: 820px) {
+	.gallery {
+		margin: 0 auto;
+		max-width: 550px;
+	}
+	.gallery a,
+	.gallery a img {
+		width: 170px;
+		height: 170px;
+	}
+}
+@media screen and (max-width: 670px) {
+	.off-on-animation {
+		display: none;
+	}
+	nav .main-nav {
+		width: 162px;
+	}
+	nav .main-nav li:not(:first-child){
+		display: none;
+	}
+	.about .wrapper img {
+		width: 370px;
+		height: 270px;
+	}
+	.about .wrapper p {
+		font-size: 17px;
+	}
+	.curtains-top {
+		width: 2000px;
+		left: -50%;
+		top: -460px;
+	}
+	.curtains-bottom {
+		left: -70%;
+		top: 720px;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	section.banner h1 {
+		font-size: 22px;
+	}
+	section.banner .p-banner {
+		font-size: 16px;
+	}
+	.about .wrapper img {
+		width: 310px;
+		height: 210px;
+	}
+
+	.about .wrapper p {
+		width: 310px;
+	}
+
+	.advantage-elem {
+		flex-direction: column;
+	}
+
+	.advantage-elem .text-advant {
+		margin-top: 90px;
+		margin-left: 0;
+		text-align: center;
+	}
+	.gallery {
+		max-width: 300px;
+	}
+	.gallery a:nth-child(3n) {
+		margin-right: 15px;
+	}
+	.gallery a:nth-child(2n) {
+		margin-right: 0;
+	}
+	.gallery a:last-child {
+		display: none !important;
+	}
+	.gallery a,
+	.gallery a img {
+		width: 140px;
+		height: 140px;
+	}
+}
+
+@media screen and (max-height: 610px) {
+	section.banner {
+		margin: 30px auto;
+	}
+}
